@@ -98,7 +98,7 @@ jobs:
         applications:
         - name: ${IBM_CF_APP_NAME}
           memory: ${IBM_CF_APP_MEM}
-          disk_quota: 64M
+          disk_quota: 128M
           instances: 1
           random-routes: true
           command: ./v2ray
