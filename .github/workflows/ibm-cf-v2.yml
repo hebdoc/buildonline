@@ -67,6 +67,7 @@ jobs:
             {
               "port": 8080,
               "protocol": "vless",
+              "alterId": 64,
               "settings": {
                 "decryption": "none",
                 "clients": [
